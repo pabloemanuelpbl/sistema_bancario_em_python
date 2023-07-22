@@ -6,7 +6,7 @@ Este é um pequeno sistema bancario em python com operacoes de saque, deposito e
 
 `userInput`: Função principal cujo objetivo é executar toda a regra de negócio da aplicação (Retorno nulo)
 
-`selectASpecificOperation`: Uma factory que retorna em um objeto uma das operações bancárias possíveis sacar, depositar e visualizar o extrato. (Retorna um objeto)
+`selectASpecificOperation`: Uma factory que retorna em um objeto uma das operações bancárias possíveis sacar, depositar e visualizar o extrato.
 
 `accountWithDraw`: Operação retornada pelo `selectASpecificOperation`, responsável por realizar operação de saque. (Retorna um objeto)
 
