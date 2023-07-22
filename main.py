@@ -1,6 +1,6 @@
 from operator import itemgetter
 
-currentAccount: dict = {                ##conta corrente do usuario
+currentAccount: dict = {                 ##conta corrente do usuario
     'depositStatement': [],
     'withdrawalStatement': [],
     'totalBalance': 0.0
